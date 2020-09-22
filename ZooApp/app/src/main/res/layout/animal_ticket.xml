@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contextClickable="false"
+    android:orientation="horizontal"
+    android:background="@drawable/background_killer"
+    android:padding="5pt">
+
+    <ImageView
+        android:id="@+id/tvImage"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        app:srcCompat="@drawable/baboon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Babon"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Babone is a monkey breed"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
